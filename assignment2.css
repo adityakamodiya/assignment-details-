@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h3,h1{text-transform: uppercase;
+    
+    text-align: center;
+}h1{
+    padding-top: 2%;
+}
+.heading{
+    align-items: center;
+}
+#boxes{ margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.box{ 
+    border: solid rgb(83, 66, 66);
+    border-radius: 5px;
+    width: 31%
+    ;
+    height: 400px;
+    background-color:white;
+}
+
+img{ padding-left: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+.right{
+    padding-right: 25px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.left{
+    display: flex;
+    
+    margin-left: 25px;
+    
+}
+
+
+.content{
+    margin-left: 30px;
+} 
+.content p{padding-top:0%;}
+
+p {
+    padding-top: 2rem;
+    padding-left: 5%;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.stars {
+    padding-top: 13%;
+    text-align: start;
+    
+}
+.stars .fa-solid fa-star{
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+
+.slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+.slides a {padding-bottom: 0%;
+    width: 20px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    margin: 2px;
+}
+.slides .active{
+    background-color: green;
+}
